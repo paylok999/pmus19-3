@@ -134,27 +134,27 @@
 //
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
-<CastleSiegeEvent Enable="1" FriendlyFire="1" ResetAccumulatedTimeAfterKill="0" ResetAccumulatedTimeAfterMove="0" LordMixDailyLimit="1" LordMixMinGuildPosition="3" LiftAllyRequirement="0" CrownSwitchMinGuildPosition="3" CrownMinGuildPos="0">
-	<DamageReduction OppositeTeam="40" SelfTeam="20" />
+<CastleSiegeEvent Enable="1" FriendlyFire="0" ResetAccumulatedTimeAfterKill="1" ResetAccumulatedTimeAfterMove="1" LordMixDailyLimit="2" LordMixMinGuildPosition="2" LiftAllyRequirement="0" CrownSwitchMinGuildPosition="3" CrownMinGuildPos="0">
+	<DamageReduction OppositeTeam="60" SelfTeam="0" />
 	<WeaponDamage AttackTeam="300" DefenseTeam="200" />
-	<CycleSettings Days="14" StartYear="0" StartMonth="0" StartDay="0">
-		<Cycle Stage="1" Day="0" Hour="0" Minute="0" />
+	<CycleSettings Days="7" StartYear="0" StartMonth="0" StartDay="0">
+		<Cycle Stage="1" Day="0" Hour="0" Minute="01" />
 		<!-- Register Period -->
 		<Cycle Stage="2" Day="1" Hour="23" Minute="59" />
 		<!-- Idle -->
-		<Cycle Stage="3" Day="2" Hour="0" Minute="0" />
+		<Cycle Stage="3" Day="2" Hour="00" Minute="01" />
 		<!-- Register Mark Of The Lord -->
-		<Cycle Stage="4" Day="4" Hour="0" Minute="0" />
+		<Cycle Stage="4" Day="4" Hour="23" Minute="59" />
 		<!-- Idle -->
-		<Cycle Stage="5" Day="4" Hour="12" Minute="0" />
+		<Cycle Stage="5" Day="5" Hour="23" Minute="59" />
 		<!-- Castle Attack Guild Notification -->
-		<Cycle Stage="6" Day="4" Hour="19" Minute="0" />
+		<Cycle Stage="6" Day="6" Hour="13" Minute="0" />
 		<!-- Ready For Castle Siege -->
-		<Cycle Stage="7" Day="7" Hour="8" Minute="0" />
+		<Cycle Stage="7" Day="6" Hour="19" Minute="30" />
 		<!-- Castle Siege Start -->
-		<Cycle Stage="8" Day="7" Hour="10" Minute="0" />
+		<Cycle Stage="8" Day="6" Hour="20" Minute="30" />
 		<!-- Castle Siege End -->
-		<Cycle Stage="9" Day="14" Hour="0" Minute="0" />
+		<Cycle Stage="9" Day="7" Hour="0" Minute="0" />
 		<!-- End of Cycle -->
 	</CycleSettings>
 	<CycleCorrection State="0" Year="0" Month="0" Day="0" Hour="0" Minute="0" />
