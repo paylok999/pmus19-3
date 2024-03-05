@@ -143,6 +143,12 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_DROP, MakeItemID(14,11), 12,'Item_(14,11,12)_Kundun_Box+5') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,45), 0, 'Item_(14,45,0)_Pumpkin_of_Luck') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,52), 0, 'Item_(14,52,0)_GM_Gift_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,52), 1, 'Item_(14,52,1)_GM_Gift_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,52), 2, 'Item_(14,52,2)_GM_Gift_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,52), 3, 'Item_(14,52,3)_GM_Gift_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,52), 4, 'Item_(14,52,4)_GM_Gift_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,52), 5, 'Item_(14,52,5)_GM_Gift_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(14,52), 6, 'Item_(14,52,6)_GM_Gift_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,55), 0, 'Item_(14,55,0)_Green_Chaos_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,56), 0, 'Item_(14,56,0)_Red_Chaos_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,57), 0, 'Item_(14,57,0)_Purple_Chaos_Box') -- DropFunction /1/
@@ -302,6 +308,22 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,145),0, 'Item_(20,145,0)_Tempest_Muun_Egg_(Wide)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,146),0, 'Item_(20,146,0)_Tempest_Muun_Box_(Wide)') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(20,147),0, 'Item_(20,147,0)_Tempest_Muun_Evolution_Stone_Box_(Wide)') -- DropFunction /4/
+	
+	--freebies
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),1, 'Item_(20,72,1)_Blood_Angel_Armor_Box_BM') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),2, 'Item_(20,72,2)_Blood_Angel_Armor_Box_WZ') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),3, 'Item_(20,72,3)_Blood_Angel_Armor_Box_ELF') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),4, 'Item_(20,72,4)_Blood_Angel_Armor_Box_MG') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),5, 'Item_(20,72,5)_Blood_Angel_Armor_Box_DL') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),6, 'Item_(20,72,6)_Blood_Angel_Armor_Box_SUM') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),7, 'Item_(20,72,7)_Blood_Angel_Armor_Box_RF') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),8, 'Item_(20,72,8)_Blood_Angel_Armor_Box_GL') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),9, 'Item_(20,72,9)_Blood_Angel_Armor_Box_RW') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),10, 'Item_(20,72,10)_Blood_Angel_Armor_Box_SL') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),11, 'Item_(20,72,11)_Blood_Angel_Armor_Box_GC') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),12, 'Item_(20,72,12)_Blood_Angel_Armor_Box_LW') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),13, 'Item_(20,72,13)_Blood_Angel_Armor_Box_LM') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(20,72),14, 'Item_(20,72,14)_Blood_Angel_Armor_Box_IK') -- DropFunction /4/
 
 -- ====================================================================
 -- MonsterBags -- BagType, 0, MonsterID, 'FileName'
@@ -368,15 +390,42 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_MONSTER, 0,760,'Monster_(760)_Rooster_White') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,761,'Monster_(761)_Rooster_Purple') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,762,'Monster_(762)_Rooster_Red') -- DropFunction /2/
+
+	
 	AddItemBag(BAG_MONSTER, 0,839,'Monster_(839)_Elite_Great_Bahamut_of_Abyss') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,840,'Monster_(840)_Elite_Lizard_King_of_Abyss') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,848,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,849,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,850,'Monster_(850)_Elite_Scorched Wizard') -- DropFunction /2/
-	AddItemBag(BAG_MONSTER, 0,930,'Monster_(930)_Elite_Bloody_Wolf_of_Fresh_Blood') -- DropFunction /2/
-	AddItemBag(BAG_MONSTER, 0,931,'Monster_(931)_Elite_Bloody_Beam_Knight') -- DropFunction /2/
-	AddItemBag(BAG_MONSTER, 0,932,'Monster_(932)_Elite_Bloody_Tantalus') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,135,'Monster_(135)_WhiteWizard') -- DropFunction /2/
 	
+	AddItemBag(BAG_MONSTER, 0,870,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,871,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,872,'Monster_(850)_Elite_Scorched Wizard') -- DropFunction /2/
+	
+	AddItemBag(BAG_MONSTER, 0,879,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,880,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+
+	
+	AddItemBag(BAG_MONSTER, 0,898,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,899,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,900,'Monster_(850)_Elite_Scorched Wizard') -- DropFunction /2/
+	
+	AddItemBag(BAG_MONSTER, 0,908,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,909,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,910,'Monster_(850)_Elite_Scorched Wizard') -- DropFunction /2/
+	
+	AddItemBag(BAG_MONSTER, 0,914,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,915,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,916,'Monster_(850)_Elite_Scorched Wizard') -- DropFunction /2/
+	
+	AddItemBag(BAG_MONSTER, 0,864,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,865,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+	
+	AddItemBag(BAG_MONSTER, 0,930,'Monster_(848)_Elite_Scorched_Warrior') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,931,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 0,932,'Monster_(849)_Elite_Scorched_Assassins') -- DropFunction /2/
+
 -- ====================================================================
 -- EventBags -- BagType, EventID, 0, 'FileName'
 -- ====================================================================

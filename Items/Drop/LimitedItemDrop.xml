@@ -61,7 +61,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
 
-<LimitedItemDrop Enable="1">
+<LimitedItemDrop Enable="0">
 	<DropLimit>
 		<Limit Type="0"> <!-- Global Drop Limit -->
 			<ResetTime DayOfMonth="-1" DayOfWeek="4" Hour="10" Min="0" />
