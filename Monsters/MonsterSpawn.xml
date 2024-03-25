@@ -104,11 +104,12 @@
 			<Spawn Index="257" Distance="0" StartX="132" StartY="165" Dir="3" />
 			<Spawn Index="257" Distance="0" StartX="132" StartY="90" Dir="3" />
 			<Spawn Index="257" Distance="0" StartX="170" StartY="129" Dir="1" />
-			<Spawn Index="543" Distance="0" StartX="144" StartY="127" Dir="3" /> <!-- Gens Duprian Steward -->
+			<Spawn Index="543" Distance="0" StartX="130" StartY="127" Dir="2" /> <!-- Gens Duprian Steward -->
 			<Spawn Index="547" Distance="0" StartX="139" StartY="138" Dir="3" /> <!-- Market Union Member Julia -->
 			<Spawn Index="584" Distance="0" StartX="114" StartY="132" Dir="3" /> <!-- Sir Lesnar -->
 			<Spawn Index="764" Distance="0" StartX="131" StartY="147" Dir="3" /> <!-- Cent (Town) -->	
 			<Spawn Index="375" Distance="0" StartX="132" StartY="161" Dir="2" /> <!-- Chaos Card Master -->
+			<Spawn Index="479" Distance="0" StartX="130" StartY="134" Dir="1" /> <!-- Doorkeeper Titus -->
 		</Spot>
 		<Spot Type="1" Description="Multi-Spawn">
 			<Spawn Index="3" Distance="30" StartX="180" StartY="90" EndX="226" EndY="244" Dir="-1" Count="45" /> <!-- Spider -->
@@ -2964,7 +2965,7 @@
 			<Spawn Index="209" Distance="0" StartX="117" StartY="27" Dir="2" /> <!-- Wolf Altar5 -->
 			<!-- <Spawn Index="248" Distance="0" StartX="99" StartY="40" Dir="2" /> --> <!-- Wandering Merchant Martin ~ shop managed via ShopList.xml -->
 			<Spawn Index="406" Distance="0" StartX="228" StartY="48" Dir="1" /> <!-- Apostle Devin -->
-			<Spawn Index="407" Distance="0" StartX="62" StartY="239" Dir="1" /> <!-- Werewolf Quarel -->
+			<Spawn Index="407" Distance="0" StartX="225" StartY="48" Dir="1" /> <!-- Werewolf Quarel -->
 		</Spot>
 		<Spot Type="2" Description="Single Point Monsters">
 			<Spawn Index="310" Distance="30" StartX="58" StartY="47" Dir="-1" /> <!-- Hammer Scout -->

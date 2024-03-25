@@ -103,7 +103,8 @@
  
 	<SpawnSettings>
 		<Group Index="0">
-			<Spawn DayOfMonth="-1" DayOfWeek="-1" Hour="11" Minute="8" AppearanceRate="100" />
+			<Spawn DayOfMonth="-1" DayOfWeek="-1" Hour="19" Minute="0" AppearanceRate="100" />
+			<Spawn DayOfMonth="-1" DayOfWeek="-1" Hour="7" Minute="0" AppearanceRate="100" />
 		</Group> 
 	</SpawnSettings>
 </MonsterGroupRegenSystem>

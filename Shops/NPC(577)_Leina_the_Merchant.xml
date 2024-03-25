@@ -33,7 +33,6 @@
 		<Item Cat="14" Index="102" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="1" Serial="0" />
 		<Item Cat="14" Index="109" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="1" Serial="0" />
 		<Item Cat="16" Index="239" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="1" Serial="0" />
-		<Item Cat="14" Index="317" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="1" Serial="0" />
 		<Item Cat="12" Index="70" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Elemental="1" Serial="0" />
 	</Tab>
 	<Tab Id="2">

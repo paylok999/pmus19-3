@@ -94,8 +94,12 @@
   <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="146" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="10000" Name="MUUN Evo" />
   <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="466" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="2000" Name="Garuda Flame" />
   <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="342" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="2000" Name="Steel of Heaven" />
-  <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="11" MinLevel="3" MaxLevel="3" Durability="0" Element="-1" Duration="0" Rate="5000" Name="Heart of Love" />
-  <!--
+  
+  <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="477" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="500" Name="Seal of Ghost Horse" />
+  <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="466" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="2000" Name="Sculpture" />
+  <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="449" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="2000" Name="Rage Earring L" />
+  <!--<DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="11" MinLevel="3" MaxLevel="3" Durability="0" Element="-1" Duration="0" Rate="5000" Name="Heart of Love" />
+  
   <DropItem MonsterMinLevel="170" MonsterMaxLevel="680" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="153" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="10000" Name="Stardust" />
   <DropItem MonsterMinLevel="170" MonsterMaxLevel="300" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="157" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="7000" Name="Green Box" />
   <DropItem MonsterMinLevel="410" MonsterMaxLevel="530" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="158" MinLevel="0" MaxLevel="0" Durability="0" Element="-1" Duration="0" Rate="5000" Name="Red Box" />
